@@ -37,6 +37,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1270px;
+  }
+}
+
 .section {
   padding: 80px 0;
 }
