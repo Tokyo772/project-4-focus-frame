@@ -2,11 +2,24 @@
   margin: 20px auto 80px auto;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-container {
+    margin: 40px auto 100px auto;
+  }
+}
+
 .place-hero {
   border-radius: 30px;
   background: #1d1d1d;
   padding: 40px 20px 0 20px;
   margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .place-hero {
+    padding: 64px 0 0 32px;
+    margin-bottom: 100px;
+  }
 }
 
 h1 {
@@ -21,11 +34,21 @@ h1 {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: 1px;
+
+    max-width: 515px;
+  }
+}
+
 .word-hero {
   color: #bea69e;
   font-style: italic;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 1.07;
 }
 
 .paragraph-hero {
@@ -38,11 +61,29 @@ h1 {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .paragraph-hero {
+    width: 418px;
+  }
+}
+
 .list-photoes {
   display: flex;
   position: relative;
   width: 109px;
   margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-photoes {
+    width: 137px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .students-photo-n-link {
+    display: flex;
+  }
 }
 
 .photo-circle-item:not(:first-child) {
@@ -63,6 +104,12 @@ h1 {
   z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+  .photo-circle {
+    width: 54px;
+  }
+}
+
 .link-n-reviews {
   display: flex;
   gap: 40px;
@@ -70,9 +117,22 @@ h1 {
   margin-bottom: 31px;
 }
 
+@media screen and (min-width: 768px) {
+  .link-n-reviews {
+    margin-bottom: 40px;
+  }
+}
+
 .link-n-arrow {
   display: flex;
   gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-n-arrow {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 .link-happy-students {
@@ -86,15 +146,36 @@ h1 {
   width: 67px;
 }
 
+@media screen and (min-width: 768px) {
+  .link-happy-students {
+    font-size: 16px;
+    line-height: 1.25;
+
+    width: 82px;
+  }
+}
+
 .arrow {
   fill: #fff;
   align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    align-self: start;
+  }
 }
 
 .reviews {
   display: flex;
   gap: 12px;
   height: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    height: 50px;
+  }
 }
 
 .place-for-star {
@@ -107,8 +188,24 @@ h1 {
   border-radius: 50%;
 }
 
+@media screen and (min-width: 768px) {
+  .place-for-star {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 .list-two-words {
+  display: flex;
+  flex-direction: column;
   align-self: center;
+  gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-two-words {
+    gap: 8px;
+  }
 }
 
 .first-item-word {
@@ -117,7 +214,13 @@ h1 {
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;
-  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .first-item-word {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .second-item-word {
@@ -127,6 +230,12 @@ h1 {
   font-weight: 500;
   line-height: 1.13;
   letter-spacing: -0.64px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-item-word {
+    line-height: 1.25;
+  }
 }
 
 .camera-man {
@@ -140,6 +249,12 @@ h1 {
   border-left: none;
   border-right: none;
   padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .marquee {
+    padding: 24px 0;
+  }
 }
 
 .marquee__line {
@@ -157,6 +272,13 @@ h1 {
   font-weight: 400;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .marquee__line {
+    font-size: 40px;
+    line-height: 1.25;
+  }
 }
 
 .white-photography {
