@@ -147,10 +147,11 @@ img {
     justify-content: center;
     align-items: center;
     border: none;
-    margin-top: 22px;
+    margin-top: 21px;
     margin-left: 14px;
     border-radius: 12px;
     background: #fff;
+    color: #121212;
 
     font-size: 18px;
     font-weight: 700;
