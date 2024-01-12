@@ -1,6 +1,6 @@
-img {
-  display: block;
-  width: 100%;
+@import url('./reset.css');
+@import url('./default.css');
+ {
 }
 
 .mentors-info {
@@ -10,7 +10,9 @@ img {
 }
 
 .container {
+  border: 2px solid red;
 }
+
 .mentors-title {
   color: #fff;
   font-family: DM Sans;
