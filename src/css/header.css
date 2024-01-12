@@ -1,0 +1,260 @@
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  display: flex;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  padding: 9px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .page-nav {
+    padding: 15px 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .page-nav {
+    padding: 21px 50px;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+}
+.logo-icon {
+  fill: #fff;
+}
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  margin-right: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .camera {
+    display: none;
+  }
+}
+
+.camera-icon {
+  fill: #bea69e66;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon {
+  width: 32px;
+  height: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-icon {
+    width: 40px;
+    height: 28px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.nav-list {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .nav-list {
+    display: flex;
+    gap: 28px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-list {
+    gap: 40px;
+  }
+}
+
+.nav-list-item {
+  text-transform: uppercase;
+}
+.nav-list-link {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.header-sign-btn {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-sign-btn {
+    min-width: 186px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 22px;
+    margin-left: 14px;
+    border-radius: 12px;
+    background: #fff;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-sign-btn {
+    padding: 16px 84px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    background: #fff;
+  }
+}
+
+/* Mobile-menu */
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  width: 57%;
+  height: 100%;
+  padding: 180px 20px;
+
+  background-color: #bea69e;
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  background-image: url(/img/hero/camera_mob_1x.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@media (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: url(/img/hero/camera_mob_2x.webp);
+    background-size: 218px 329px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    width: 65%;
+    padding: 232px 64px;
+    background-image: url(/img/hero/camera_tablet_1x.webp);
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: url(/img/hero/camera_tablet_2x.webp);
+    background-size: 476px 480px;
+  }
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.menu-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn-icon {
+  stroke: #121212;
+  width: 32px;
+  height: 32px;
+}
+
+.mobile-menu-list {
+  margin-bottom: auto;
+}
+
+.mobile-menu-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-link {
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.mobile-menu-link.current {
+  font-weight: 700;
+}
