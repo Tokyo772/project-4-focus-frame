@@ -144,8 +144,6 @@ img {
     align-items: center;
     justify-content: center;
     padding: 16px 58px;
-    justify-content: center;
-    align-items: center;
     border: none;
     margin-top: 21px;
     margin-left: 14px;
@@ -214,6 +212,12 @@ img {
   .mobile-menu {
     background-image: url(/img/hero/camera_tablet_2x.webp);
     background-size: 476px 480px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
   }
 }
 
