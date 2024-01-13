@@ -34,7 +34,7 @@
     margin-bottom: 150px;
 
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
   }
 }
 
@@ -341,6 +341,42 @@ h1 {
 
     to {
       transform: translateX(-96%);
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  @keyframes marqueeLine {
+    from {
+      transform: translateX(10%);
+    }
+
+    to {
+      transform: translateX(-90%);
+    }
+  }
+}
+
+@media screen and (min-width: 1850px) {
+  @keyframes marqueeLine {
+    from {
+      transform: translateX(20%);
+    }
+
+    to {
+      transform: translateX(-80%);
+    }
+  }
+}
+
+@media screen and (min-width: 2050px) {
+  @keyframes marqueeLine {
+    from {
+      transform: translateX(25%);
+    }
+
+    to {
+      transform: translateX(-75%);
     }
   }
 }
