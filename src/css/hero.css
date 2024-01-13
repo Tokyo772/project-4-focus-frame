@@ -39,8 +39,6 @@
 }
 
 h1 {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
@@ -77,8 +75,6 @@ h1 {
 }
 
 .paragraph-hero {
-  color: #fff;
-  font-family: DM Sans;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.28px;
@@ -167,8 +163,6 @@ h1 {
 }
 
 .link-happy-students {
-  color: #fff;
-  font-family: DM Sans;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;
@@ -180,8 +174,6 @@ h1 {
 @media screen and (min-width: 768px) {
   .link-happy-students {
     font-size: 16px;
-    line-height: 1.25;
-
     width: 82px;
   }
 }
@@ -241,7 +233,6 @@ h1 {
 
 .first-item-word {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;
@@ -250,23 +241,14 @@ h1 {
 @media screen and (min-width: 768px) {
   .first-item-word {
     font-size: 16px;
-    line-height: 1.25;
   }
 }
 
 .second-item-word {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.13;
   letter-spacing: -0.64px;
-}
-
-@media screen and (min-width: 768px) {
-  .second-item-word {
-    line-height: 1.25;
-  }
 }
 
 .camera-man {
@@ -298,7 +280,6 @@ h1 {
   animation-iteration-count: infinite;
 
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 400;
   line-height: 1.14;
@@ -308,7 +289,6 @@ h1 {
 @media screen and (min-width: 768px) {
   .marquee__line {
     font-size: 40px;
-    line-height: 1.25;
   }
 }
 
