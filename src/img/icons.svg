@@ -10,10 +10,6 @@
             <path
                 d="M24.184 18.468c0 3.252-2.646 5.898-5.898 5.898s-5.897-2.646-5.897-5.898 2.645-5.898 5.897-5.898 5.898 2.647 5.898 5.898zm12.387-8.375v16.752a4.045 4.045 0 0 1-4.044 4.044H4.043a4.045 4.045 0 0 1-4.044-4.044V10.093a4.045 4.045 0 0 1 4.044-4.044h4.974V4.65a3.537 3.537 0 0 1 3.538-3.538h11.459a3.537 3.537 0 0 1 3.538 3.538v1.398h4.974a4.046 4.046 0 0 1 4.044 4.045zm-9.354 8.375c0-4.925-4.006-8.931-8.931-8.931-4.924 0-8.93 4.007-8.93 8.931s4.007 8.931 8.93 8.931c4.925 0 8.931-4.007 8.931-8.931z" />
         </symbol>
-        <symbol id="icon-nav" viewBox="0 0 47 32">
-            <path stroke-linecap="round" stroke-width="2.909"
-                d="M8.538 5.333h36.553M8.538 24.727h36.553M19.668 15.03h25.423" />
-        </symbol>
         <!--hero-->
         <symbol id="icon-star" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4"
@@ -31,5 +27,12 @@
         <symbol id="icon-x" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16" />
         </symbol>
+        <symbol id="icon-nav" viewBox="0 0 47 32">
+           <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 5.333h36.553"></path>
+           <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8.538 24.727h36.553"></path>
+           <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M19.668 15.030h25.423"></path>
+        </symbol>
+        
+        
     </defs>
 </svg>
