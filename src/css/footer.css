@@ -1,9 +1,6 @@
 /* footer */
 .footer {
-    background-image: url(../images/Graphic.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../img/footer/Graphic.png);
 }
 
 .footer-container {
@@ -17,7 +14,7 @@
 
 .footer-icon {
     margin-bottom: 16px;
-    background-color: aqua;
+    fill: #fff;
 }
 
 .fotter-address {
