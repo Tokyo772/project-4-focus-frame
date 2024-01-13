@@ -17,10 +17,6 @@ button {
   border: none;
 }
 
-img {
-  display: block;
-}
-
 .header {
   display: flex;
 }
@@ -255,8 +251,6 @@ img {
 
 .mobile-menu-link {
   color: #121212;
-  font-size: 14px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
