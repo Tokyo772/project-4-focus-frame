@@ -7,7 +7,7 @@
 .mentors-title {
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
@@ -30,7 +30,6 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin: 0 75px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -38,24 +37,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 93px;
-    column-gap: 108px;
-    margin: 0 108px;
+    column-gap: 114px;
   }
 }
 
-@media only screen and (min-width: 1278px) {
+@media only screen and (min-width: 1280px) {
   .mentors-list {
     flex-wrap: nowrap;
     gap: 100px;
     justify-content: center;
     align-items: center;
-    margin: 0 23px;
-  }
-}
-
-@media only screen and (min-width: 1438px) {
-  .mentors-list {
-    margin: 0 103px;
   }
 }
 
@@ -76,8 +67,8 @@
   }
 }
 
-@media only screen and (min-width: 1278px) {
-  .mentors-card :not(3) {
+@media only screen and (min-width: 1280px) {
+  .mentors-card:not(:nth-child(3)) {
     width: 180px;
   }
 }
@@ -102,13 +93,13 @@
 @media only screen and (min-width: 768px) {
   .mentors-card-title {
     font-size: 28px;
-    line-height: 1.5;
+    line-height: 1.14;
   }
 }
 
-@media only screen and (min-width: 1438px) {
+@media only screen and (min-width: 1280px) {
   .mentors-card-title {
-    letter-spacing: -0.001em;
+    letter-spacing: -0.01em;
   }
 }
 
