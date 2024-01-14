@@ -1,0 +1,125 @@
+.reviews-title {
+  margin-bottom: 40px;
+
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-title {
+    margin-bottom: 50px;
+
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+  }
+}
+.reviews-wrapper {
+  position: relative;
+  padding: 20px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media only screen and (min-width: 768px) {
+  .reviews-wrapper {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+}
+.reviews-item {
+}
+.reviews-wrapper-item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-wrapper-item {
+    margin-bottom: 20px;
+  }
+}
+.reviews-text {
+}
+.reviews-img {
+  margin-right: 10px;
+}
+.reviews-list-name {
+  margin-bottom: 4px;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-list-name {
+    line-height: 1.4;
+  }
+}
+.reviews-list-status {
+  color: var(--text-second);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-list-status {
+    line-height: 1.29;
+    font-size: 14px;
+  }
+}
+.reviews-impression {
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-impression {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+/* ICON */
+.reviews-list-icon {
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  top: 80px;
+  left: 86px;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-list-icon {
+    top: 20px;
+    left: 504px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-list-icon {
+    left: 394px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .reviews-list-icon {
+    left: 474px;
+  }
+}
+.reviews-item-icon {
+}
+.reviews-icon {
+}
+.wrapper-amanda {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper-amanda {
+    display: block;
+  }
+}
