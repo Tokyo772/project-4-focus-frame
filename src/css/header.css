@@ -123,6 +123,9 @@ button {
 .nav-list-item {
   text-transform: uppercase;
 }
+.active {
+  color: var(--brown);
+}
 .nav-list-link {
   padding-top: 21px;
   padding-bottom: 21px;
