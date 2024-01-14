@@ -75,7 +75,6 @@ h1 {
 }
 
 .paragraph-hero {
-  font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.28px;
 
@@ -163,7 +162,6 @@ h1 {
 }
 
 .link-happy-students {
-  font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;
 
@@ -233,7 +231,6 @@ h1 {
 
 .first-item-word {
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;
 }
