@@ -54,30 +54,52 @@
     </div>
     <div class="sign-up-section-imgages">
       <div class="img-objectiv-div">
-        <img
-          class="img-objective"
-          srcset="
-            ../img/sign-up/object-1x.webp 1x,
-            ../img/sign-up/object-2x.webp 2x
-          "
-          src="../img/sign-up/object-1x.webp"
-          alt="camera objective"
-          width="150"
-          height="142"
-        />
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/sign-up/object-px1440@1x.webp 1x,
+              ./img/sign-up/object-px1440@2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1439px)"
+            srcset="
+              ./img/sign-up/object-1x.webp 1x,
+              ./img/sign-up/object-2x.webp 2x
+            "
+          />
+          <img
+            class="img-objective"
+            src="./img/sign-up/object-1x.webp"
+            alt="objectiv"
+            loading="lazy"
+          />
+        </picture>
       </div>
       <div class="img-camera-div">
-        <img
-          class="img-camera"
-          srcset="
-            ../img/sign-up/camera_1x.webp 1x,
-            ../img/sign-up/camera_2x.webp 2x
-          "
-          src="../img/sign-up/camera_1x.webp"
-          alt="video camera"
-          width="240"
-          height="296"
-        />
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/sign-up/camera-1440px_1x.webp 1x,
+              ./img/sign-up/camera-1440px_2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1439px)"
+            srcset="
+              ./img/sign-up/camera_1x.webp 1x,
+              ./img/sign-up/camera_2x.webp 2x
+            "
+          />
+          <img
+            class="img-objective"
+            src="../img/sign-up/camera_1x.webp"
+            alt="objectiv"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </div>
   </div>
