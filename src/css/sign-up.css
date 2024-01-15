@@ -160,12 +160,12 @@
 /* <--=========================== /SIGN-UP TABLET ==============================--> */
 /* <--=========================== SIGN-UP DESKTOP ==============================--> */
 @media screen and (min-width: 1280px) {
-  .sign-up-section {
+  /* .sign-up-section {
     display: flex;
     gap: 60px;
     max-width: 1110px;
     margin: 0 auto;
-  }
+  } */
 
   .sign-up-section-imgages {
     display: flex;
@@ -196,10 +196,10 @@
 }
 /* <--=========================== /SIGN-UP DESKTOP ==============================--> */
 @media screen and (min-width: 1440px) {
-  .sign-up-section {
+  /* .sign-up-section {
     max-width: 1270px;
     gap: 200px;
-  }
+  } */
   .sign-up-section-imgages {
     width: 560px;
   }
