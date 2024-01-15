@@ -77,8 +77,14 @@ button {
 }
 
 .camera-icon {
-  fill: #bea69e66;
+  fill: rgba(190, 166, 158, 0.4);
 }
+
+.camera-icon:hover,
+.camera-icon:focus {
+  fill: rgba(190, 166, 158, 1);
+}
+
 .menu-btn {
   display: flex;
   align-items: center;
@@ -154,6 +160,12 @@ button {
     font-weight: 700;
     line-height: 1.55;
     text-transform: uppercase;
+  }
+
+  .header-sign-btn:hover,
+  .header-sign-btn:focus {
+    color: rgba(190, 166, 158, 1);
+    background-color: rgba(29, 29, 29, 1);
   }
 }
 
