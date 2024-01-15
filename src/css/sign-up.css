@@ -1,8 +1,5 @@
 .sign-up-section-title {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
@@ -11,13 +8,6 @@
   color: #bea69e;
 }
 .sign-up-section-text {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -37,11 +27,7 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0px solid transparent;
   color: #fff;
-  font-family: DM Sans;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.25;
 }
 .sign-up-section-input:hover,
 .sign-up-section-input:focus,
@@ -50,10 +36,7 @@
 }
 .sign-up-section-input::placeholder {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.29;
   opacity: 0.7;
 }
@@ -69,18 +52,11 @@
   outline: 0px solid transparent;
   resize: none;
   color: #fff;
-  font-family: DM Sans;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.25;
 }
 .sign-up-section-message::placeholder {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.29;
   opacity: 0.7;
 }
@@ -101,9 +77,7 @@
   border: none;
   background: var(--white, #fff);
   color: var(--black, #121212);
-  font-family: DM Sans;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
@@ -116,10 +90,7 @@
 .sign-up-section-privacy {
   width: 100%;
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.33;
   letter-spacing: -0.02em;
 }
@@ -184,7 +155,7 @@
 }
 /* <--=========================== /SIGN-UP TABLET ==============================--> */
 /* <--=========================== SIGN-UP DESKTOP ==============================--> */
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .sign-up-section {
     display: flex;
     gap: 60px;
@@ -206,9 +177,6 @@
     padding: 63px 18px 62px 18px;
   }
   .img-objective {
-    /* display: block;
-        width: 150px;
-        height: 142px; */
     background: transparent;
     filter: drop-shadow(-35px 17px 25px rgba(0, 0, 0, 0.26));
   }
