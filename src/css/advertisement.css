@@ -32,7 +32,7 @@
   white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 4s;
-  animation-timing-function: easy-out;
+  animation-timing-function: ease-out;
   animation-iteration-count: infinite;
 
   color: #bea69e;
