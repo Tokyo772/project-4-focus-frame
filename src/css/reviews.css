@@ -28,7 +28,7 @@
     letter-spacing: -0.04em;
   }
 }
-.reviews-wrapper {
+.reviews-item {
   position: relative;
   padding: 20px;
 
@@ -36,7 +36,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media only screen and (min-width: 768px) {
-  .reviews-wrapper {
+  .reviews-item {
     width: 640px;
     margin: 0 auto;
   }
@@ -49,14 +49,14 @@
   }
 }
 
-.reviews-wrapper-item {
+.reviews-item-item {
   display: flex;
   align-items: center;
 
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
-  .reviews-wrapper-item {
+  .reviews-item-item {
     margin-bottom: 20px;
   }
 }
