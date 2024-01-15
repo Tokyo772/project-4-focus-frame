@@ -78,6 +78,8 @@ button {
 
 .camera-icon {
   fill: rgba(190, 166, 158, 0.4);
+
+  transition: fill 0.3s ease;
 }
 
 .camera-icon:hover,
@@ -160,6 +162,8 @@ button {
     font-weight: 700;
     line-height: 1.55;
     text-transform: uppercase;
+
+    transition: color 0.3s ease, background-color 0.3s ease;
   }
 
   .header-sign-btn:hover,
