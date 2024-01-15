@@ -6,6 +6,7 @@ h4,
 h5,
 h6,
 p {
+  padding: 0;
   margin: 0;
 }
 
@@ -25,9 +26,12 @@ a {
 }
 
 button {
+  padding: 0;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }
-
 img {
   display: block;
   max-width: 100%;
