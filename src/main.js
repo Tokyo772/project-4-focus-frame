@@ -13,3 +13,10 @@ if (menuBtn) {
     });
   });
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  var lazyloadImages = document.querySelectorAll('.lazyload');
+  lazyloadImages.forEach(function (img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+  });
+});
