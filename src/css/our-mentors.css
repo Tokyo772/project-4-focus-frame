@@ -1,4 +1,4 @@
-.mentors-info {
+/* .mentors-info {
   display: flex;
   flex-direction: column;
   padding: 40px 0;
@@ -30,7 +30,7 @@
   .mentors-info {
     width: 1240px;
   }
-}
+} */
 
 .mentors-title {
   font-size: 28px;
