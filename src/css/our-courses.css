@@ -19,7 +19,6 @@
 
 .courses-titlle {
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
@@ -37,10 +36,7 @@
 }
 
 .courses-text {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     max-width: 335px;
 }
@@ -113,10 +109,7 @@
 
 .number-card {
     color: rgba(255, 255, 255, 0.40);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.29;
     letter-spacing: -0.02em;
 }
 
@@ -146,7 +139,6 @@
 
 .courses-card-titlle {
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     margin-bottom: 164px;
@@ -170,10 +162,7 @@
 
 .courses-card-text {
     color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     max-width: 100%;
 }
