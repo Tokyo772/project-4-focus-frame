@@ -20,7 +20,7 @@
     
     <title>FocusFrame</title>
     <script type="module" crossorigin src="/project-4-focus-frame/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-4-focus-frame/assets/index-ac61f97f.css">
+    <link rel="stylesheet" href="/project-4-focus-frame/assets/index-3fa2ad66.css">
   </head>
   <body>
     <!-- Header -->
@@ -393,7 +393,101 @@
   </div>
 </section>
 
-      
+      <section class="sign-up-section section">
+  <div class="container wprapper-sing">
+    <div>
+      <h2 class="sign-up-section-title">
+        Sign <span class="sign-up-section-title-up">Up</span>
+      </h2>
+      <p class="sign-up-section-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up-section-form">
+        <div class="sign-up-section-form-wrapper">
+          <label class="sign-up-section-label" for="user-name">
+            <input
+              class="sign-up-section-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+              placeholder="Enter your name"
+              pattern="[a-zA-Zа-яА-ЯІіЇїЄєҐґʼ]+"
+              title="Maryna"
+              required
+            />
+          </label>
+          <label class="sign-up-section-label" for="user-email">
+            <input
+              class="sign-up-section-input"
+              id="user-email"
+              name="user-email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+          </label>
+          <label class="sign-up-section-label" for="user-comment">
+            <textarea
+              class="sign-up-section-message"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Message"
+              required
+            ></textarea>
+          </label>
+        </div>
+        <button class="sign-up-section-btn" type="submit">send</button>
+        <p class="sign-up-section-privacy">
+          By clicking on “Send” button, you agree to our
+          <span class="sign-up-privacy-policy"
+            ><a href="">Privacy Policy</a></span
+          >, <br />and allow Promodo to use this information for marketing
+          purposes.
+        </p>
+      </form>
+    </div>
+    <div class="sign-up-section-imgages">
+      <div class="img-objectiv-div">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/project-4-focus-frame/assets/object-1x-3089eb59.webp 1x, /project-4-focus-frame/assets/object-2x-53a20efe.webp 2x"
+          />
+          <source
+            media="(max-width: 1439px)"
+            srcset="/project-4-focus-frame/assets/object-1x-3089eb59.webp 1x, /project-4-focus-frame/assets/object-2x-53a20efe.webp 2x"
+          />
+          <img
+            class="img-objective"
+            src="/project-4-focus-frame/assets/object-1x-3089eb59.webp"
+            alt="objectiv"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="img-camera-div">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/project-4-focus-frame/assets/camera_1x-245e949e.webp 1x, /project-4-focus-frame/assets/camera_2x-3825b0bb.webp 2x"
+          />
+          <source
+            media="(max-width: 1439px)"
+            srcset="/project-4-focus-frame/assets/camera_1x-245e949e.webp 1x, /project-4-focus-frame/assets/camera_2x-3825b0bb.webp 2x"
+          />
+          <img
+            class="img-objective"
+            src="../img/sign-up/camera_1x.webp"
+            alt="objectiv"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section class="reviews-section">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
