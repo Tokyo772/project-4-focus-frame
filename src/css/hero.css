@@ -1,16 +1,16 @@
 .hero-container {
-  margin: 20px auto 80px auto;
+  padding: 20px 0 80px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    margin: 40px auto 100px auto;
+    padding: 20px 0 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-container {
-    margin: 80px auto 150px auto;
+    padding: 20px 0 150px;
   }
 }
 
@@ -18,20 +18,17 @@
   border-radius: 30px;
   background: #1d1d1d;
   padding: 40px 20px 0 20px;
-  margin-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .place-hero {
     padding: 64px 0 0 32px;
-    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place-hero {
     padding: 80px 50px 0 50px;
-    margin-bottom: 150px;
 
     display: flex;
     justify-content: space-between;
@@ -250,110 +247,4 @@ h1 {
 
 .camera-man {
   margin: 0 auto;
-}
-
-.marquee {
-  overflow: hidden;
-  display: flex;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-left: none;
-  border-right: none;
-  padding: 20px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .marquee {
-    padding: 24px 0;
-  }
-}
-
-.marquee__line {
-  flex-shrink: 0;
-  min-width: 100%;
-  white-space: nowrap;
-  animation-name: marqueeLine;
-  animation-duration: 4s;
-  animation-timing-function: easy-out;
-  animation-iteration-count: infinite;
-
-  color: #bea69e;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) {
-  .marquee__line {
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .marquee__line {
-    font-size: 59px;
-    line-height: 1.09;
-  }
-}
-
-.white-photography {
-  color: #fff;
-}
-
-@keyframes marqueeLine {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(4%);
-    }
-
-    to {
-      transform: translateX(-96%);
-    }
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(10%);
-    }
-
-    to {
-      transform: translateX(-90%);
-    }
-  }
-}
-
-@media screen and (min-width: 1850px) {
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(20%);
-    }
-
-    to {
-      transform: translateX(-80%);
-    }
-  }
-}
-
-@media screen and (min-width: 2050px) {
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(25%);
-    }
-
-    to {
-      transform: translateX(-75%);
-    }
-  }
 }
