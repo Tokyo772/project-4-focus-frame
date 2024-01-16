@@ -5,18 +5,30 @@
     <ul class="reviews-list">
       <li class="reviews-item">
         <div class="reviews-item-item">
-          <img
-            srcset="
-              ./img/reviews/user_1_1x.webp 1x,
-              ./img/reviews/user_1_2x.webp 2x
-            "
-            src="./img/reviews/user_1_1x.webp"
-            alt="user Abraham Baker"
-            class="reviews-img"
-            height="56"
-            width="56"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/reviews/user_1_1x.webp 1x,
+                ./img/reviews/user_1_2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./img/reviews/img/user@1x.jpg 1x,
+                ./img/reviews/img/user@2x.jpg 2x
+              "
+              type="image/webp"
+            />
+            <img
+              src="./img/reviews/img/user@1x.jpg"
+              alt="user Abraham Baker"
+              class="reviews-img"
+              height="56"
+              width="56"
+              loading="lazy"
+            />
+          </picture>
           <div class="reviews-text">
             <p class="reviews-list-name">Abraham Baker</p>
             <p class="reviews-list-status">Student</p>
@@ -59,18 +71,30 @@
 
       <li class="reviews-item wrapper-amanda">
         <div class="reviews-item-item">
-          <img
-            srcset="
-              ./img/reviews/user_2_1x.webp 1x,
-              ./img/reviews/user_2_2x.webp 2x
-            "
-            src="./img/reviews/user_2_1x.webp"
-            alt="user Amanda Lowery "
-            class="reviews-img"
-            height="56"
-            width="56"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/reviews/user_2_1x.webp 1x,
+                ./img/reviews/user_2_2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./img/reviews/img/user-2@1x.jpg 1x,
+                ./img/reviews/img/user-2@2x.jpg 2x
+              "
+              type="image/webp"
+            />
+            <img
+              src="./img/reviews/img/user-2@1x.jpg"
+              alt="user Amanda Lowery"
+              class="reviews-img"
+              height="56"
+              width="56"
+              loading="lazy"
+            />
+          </picture>
           <div class="reviews-text">
             <p class="reviews-list-name">Amanda Lowery</p>
             <p class="reviews-list-status">Student</p>
