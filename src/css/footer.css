@@ -68,6 +68,11 @@
 .footer-tel-link {
   line-height: 1.29;
   font-style: normal;
+  transition: color 0.3s ease;
+}
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+  color: var(--brown);
 }
 
 @media screen and (min-width: 768px) {
