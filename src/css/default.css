@@ -5,6 +5,10 @@
   --text-second: rgba(255, 255, 255, 0.5);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
 
