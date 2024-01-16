@@ -19,40 +19,97 @@
         <div class="students-photo-n-link">
           <ul class="list-photoes">
             <li class="photo-circle-item">
-              <img
-                class="photo-circle"
-                srcset="
-                  ./img/hero/girl_1__1x.webp 1x,
-                  ./img/hero/girl_1__2x.webp 2x
-                "
-                src="./img/hero/girl_1__1x.webp"
-                alt="women looks left"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  class="photo-circle"
+                  srcset="
+                    ./img/hero/girl_1__1x.webp 1x,
+                    ./img/hero/girl_1__2x.webp 2x
+                  "
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <source
+                  class="photo-circle"
+                  srcset="
+                    ./img/hero/jpeg/girl-1_1x.jpg 1x,
+                    ./img/hero/jpeg/girl-1_2x.jpg 2x
+                  "
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <img
+                  class="photo-circle"
+                  src="./img/hero/girl_1__1x.webp"
+                  alt="women looks left"
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="photo-circle-item">
-              <img
-                class="photo-circle"
-                srcset="./img/hero/boy_1x.webp 1x, ./img/hero/boy_2x.webp 2x"
-                src="./img/hero/boy_1x.webp"
-                alt="man looks straight"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  class="photo-circle"
+                  srcset="./img/hero/boy_1x.webp 1x, ./img/hero/boy_2x.webp 2x"
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <source
+                  class="photo-circle"
+                  srcset="
+                    ./img/hero/jpeg/boy_1x.jpg 1x,
+                    ./img/hero/jpeg/boy_2x.jpg 2x
+                  "
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <img
+                  class="photo-circle"
+                  src="./img/hero/boy_1x.webp"
+                  alt="man looks straight"
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="photo-circle-item">
-              <img
-                class="photo-circle"
-                srcset="./img/hero/girl_1x.webp 1x, ./img/hero/girl_2x.webp 2x"
-                src="./img/hero/girl_1x.webp"
-                alt="woman looks straight"
-                width="44"
-                height="44"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  class="photo-circle"
+                  srcset="
+                    ./img/hero/girl_1x.webp 1x,
+                    ./img/hero/girl_2x.webp 2x
+                  "
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <source
+                  class="photo-circle"
+                  srcset="
+                    ./img/hero/jpeg/girl_1x.jpg 1x,
+                    ./img/hero/jpeg/girl_2x.jpg 2x
+                  "
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+                <img
+                  class="photo-circle"
+                  src="./img/hero/girl_1x.webp"
+                  alt="woman looks straight"
+                  width="44"
+                  height="44"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
           <div class="link-n-arrow">
@@ -103,6 +160,12 @@
         height="314"
       />
       <source
+        media="(max-width: 767px)"
+        srcset="./img/hero/jpeg/mob@1x.png 1x, ./img/hero/jpeg/mob@2x.png 2x"
+        width="259"
+        height="314"
+      />
+      <source
         media="(max-width: 1279px)"
         srcset="
           ./img/hero/photographer_tablet_1x.webp 1x,
@@ -112,6 +175,15 @@
         height="434"
       />
       <source
+        media="(max-width: 1279px)"
+        srcset="
+          ./img/hero/jpeg/tablet@1x.png 1x,
+          ./img/hero/jpeg/tablet@2x.png 2x
+        "
+        width="259"
+        height="314"
+      />
+      <source
         media="(min-width: 1279px)"
         srcset="
           ./img/hero/desk-boy-camera_1x.webp 1x,
@@ -119,6 +191,15 @@
         "
         width="397"
         height="520"
+      />
+      <source
+        media="(min-width: 1279px)"
+        srcset="
+          ./img/hero/jpeg/camera-desk@1x.png 1x,
+          ./img/hero/jpeg/camera-desk@2x.png 2x
+        "
+        width="259"
+        height="314"
       />
       <img
         class="camera-man"
