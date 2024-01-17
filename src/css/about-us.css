@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  
 }
 
 @media only screen and (min-width: 768px) {
@@ -90,4 +89,7 @@
   .about-us-page {
     width: 314px;
   }
+}
+.about-us-img {
+  width: 488px;
 }
