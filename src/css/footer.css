@@ -140,6 +140,7 @@
 @media screen and (min-width: 1280px) {
   .footer-nav {
     gap: 20px;
+    white-space: nowrap;
   }
 }
 
